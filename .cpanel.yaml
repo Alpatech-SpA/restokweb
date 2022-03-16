@@ -3,6 +3,6 @@ deployment:
   tasks:
     - export DEPLOYPATH=/home/restok/public_html/test/
     - /bin/cp index.html $DEPLOYPATH
-    - /bin/cp css/* $DEPLOYPATH
-    - /bin/cp assets/* $DEPLOYPATH
-    - /bin/cp js/* $DEPLOYPATH
+    - /bin/cp -R css $DEPLOYPATH
+    - /bin/cp -R assets $DEPLOYPATH
+    - /bin/cp -R js $DEPLOYPATH
