@@ -1,5 +1,5 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/restok/public_html/test/
+    - export DEPLOYPATH=/home/restok/public_html/
     - /bin/cp -R /home/restok/repositories/restokweb $DEPLOYPATH
